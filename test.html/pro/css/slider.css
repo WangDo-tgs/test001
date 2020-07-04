@@ -1,0 +1,101 @@
+#slider {
+  position: relative;
+  overflow: hidden;
+  margin: 20px 20px 0 auto;
+  border-radius: 4px;
+
+    top: -100px;
+}
+
+#slider ul {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: 200px;
+  list-style: none;
+}
+
+#slider ul li {
+  position: relative;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 900px;
+  height: 700px;
+  text-align: center;
+  line-height: 300px;
+    
+    
+    
+}
+
+.sli-3{
+    background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/148866/bg-img.jpg")no-repeat center center;
+  background-size: cover;
+
+}
+.sli-5{
+    background: url(https://images.pexels.com/photos/3217936/pexels-photo-3217936.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)no-repeat center center;
+    background-size: cover;
+}
+.profile{
+    margin-top: 150px;
+    margin-left: -25px;
+    z-index: 99;
+    width: 46vw;
+    height: 50vh;
+    color: white;
+    position: relative;
+}
+.profile img{
+    width: 550px;
+    height: auto;
+    margin-left: 260px; 
+    margin-top: 0px;
+    cursor: none;
+}
+.protext h1{
+    position: absolute;
+    margin-top: 200px;
+    text-align: center;
+    margin-left: 90px;
+}
+a.control_prev, a.control_next {
+  position: absolute;
+  top: 40%;
+  z-index: 999;
+  display: block;
+  padding: 4% 3%;
+  width: auto;
+  height: auto;
+  background: #2a2a2a;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+a.control_prev:hover, a.control_next:hover {
+  opacity: 1;
+  -webkit-transition: all 0.2s ease;
+}
+
+a.control_prev {
+  border-radius: 0 2px 2px 0;
+}
+
+a.control_next {
+  right: 0;
+  border-radius: 2px 0 0 2px;
+}
+
+.slider_option {
+  position: relative;
+  margin: 20px 350px 0 auto;
+  width: 160px;
+  font-size: 18px;
+    color: white;
+}
